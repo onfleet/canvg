@@ -116,6 +116,8 @@
 			// load from url
 			svg.load(ctx, s);
 		}
+
+        return svg;
 	}
 
 	var matchesSelector;
