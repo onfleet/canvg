@@ -23,7 +23,7 @@
     }
 
 }( typeof window !== 'undefined' ? window : this, function ( RGBColor, stackBlur ) {
-	var nodeEnv = (typeof module !== 'undefined' && module.exports);
+	var nodeEnv = false;
     var windowEnv, ImageClass, CanvasClass,
 		defaultClientWidth = 800, defaultClientHeight = 600;
 	if (nodeEnv && (typeof window === 'undefined')) {
