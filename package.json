@@ -26,10 +26,10 @@
     "MIT-LICENSE.txt"
   ],
   "dependencies": {
+    "@xmldom/xmldom": "^0.8.6",
     "jsdom": "^8.1.0",
     "rgbcolor": "^1.0.1",
-    "stackblur": "^1.0.0",
-    "xmldom": "^0.1.22"
+    "stackblur": "^1.0.0"
   },
   "devDependencies": {
     "canvas": "^1.4.0",
