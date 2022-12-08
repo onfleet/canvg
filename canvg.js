@@ -33,7 +33,7 @@
         windowEnv = window;
     }
 	if (!windowEnv.DOMParser) {
-		windowEnv.DOMParser = require('xmldom').DOMParser;
+               windowEnv.DOMParser = require('@xmldom/xmldom').DOMParser;
 	}
 
 	function createCanvas() {
