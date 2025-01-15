@@ -27,12 +27,12 @@
   ],
   "dependencies": {
     "@xmldom/xmldom": "^0.8.6",
-    "jsdom": "^8.1.0",
+    "jsdom": "^25.0.1",
     "rgbcolor": "^1.0.1",
     "stackblur": "^1.0.0"
   },
   "devDependencies": {
-    "canvas": "^1.4.0",
+    "canvas": "^2.11.2",
     "uglify-js": "^3.3.16"
   }
 }
